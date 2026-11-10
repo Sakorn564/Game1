@@ -188,9 +188,9 @@ h3 .sub { font: 500 12px var(--f-body); letter-spacing: .04em; text-transform: n
     <div>
       <h3>Choose a level</h3>
       <div class="chips" id="chips" style="margin-top:12px">
-        <button type="button" class="chip" data-lv="easy" aria-pressed="false">Easy<small>30 moves · 3000</small></button>
-        <button type="button" class="chip" data-lv="normal" aria-pressed="true">Normal<small>25 moves · 3500</small></button>
-        <button type="button" class="chip" data-lv="hard" aria-pressed="false">Hard<small>20 moves · 4000</small></button>
+        <button type="button" class="chip" data-lv="easy" aria-pressed="false">Easy<small>15 moves · 3000</small></button>
+        <button type="button" class="chip" data-lv="normal" aria-pressed="true">Normal<small>15 moves · 3500</small></button>
+        <button type="button" class="chip" data-lv="hard" aria-pressed="false">Hard<small>15 moves · 4000</small></button>
       </div>
     </div>
     <div>
@@ -261,7 +261,7 @@ h3 .sub { font: 500 12px var(--f-body); letter-spacing: .04em; text-transform: n
   "use strict";
   var $ = function (s) { return document.querySelector(s); };
   var STAGE_W = 750, STAGE_H = 1188, K = 1, PITCH = 78;
-  var LEVELS = { easy: { moves: 30, target: 3000 }, normal: { moves: 25, target: 3500 }, hard: { moves: 20, target: 4000 } };
+  var LEVELS = { easy: { moves: 15, target: 3000 }, normal: { moves: 15, target: 3500 }, hard: { moves: 15, target: 4000 } };
   var TYPES = [
     ["Screw", "#3de6e0", '<circle cx="12" cy="12" r="8"/><path d="M8 12h8M12 8v8"/>'],
     ["Chip", "#ff9f2b", '<rect x="7" y="7" width="10" height="10" rx="1"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/>'],
